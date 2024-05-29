@@ -175,6 +175,7 @@ steps:
   - Name: **CLIENTID**, Value: The Application (client) ID of the Entra application you created
   - Name: **CLIENTSECRET**, Value: The client secret you copied in the previous step
     - _Important: Tick the **Keep this value secret** checkbox_
+- Don't forget to save the variables
 - Replace the content of the `azure-pipelines.yml` file with the code below
 - Select **Validate and save** > **Save**
 - Select **Run** to run the pipeline
